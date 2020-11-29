@@ -17,9 +17,10 @@ const socket = require('socket.io')(server, {
 UnlimitedSockets.create(socket)
 ```
 
-#### `<handshake>`
+#### `<handshake>` Optional
 ----
 The callback function for the hanshake
+More details about the handshake function is available from the [socket.io](https://socket.io/docs/v3/server-api/index.html#namespace-use-fn)
 ```
 const handshake = (socket, next) => { /* ... */ }
 const server = http.createServer(app)
