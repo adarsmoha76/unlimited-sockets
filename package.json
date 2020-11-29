@@ -1,9 +1,18 @@
 {
-  "name": "unlimited-sockets",
+  "name": "@adarsmohan76/unlimited-sockets",
   "version": "0.0.1",
   "description": "To create unlimited number of dynamic socket",
+  "main": "dist/unlimited-sockets.min.js",
+  "dependencies": {
+    "socket.io": "^3.0.3"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://adarsmoha76@github.com/adarsmoha76/unlimited-sockets.git"
   },
   "keywords": [
     "socket",
@@ -24,15 +33,12 @@
     "alive",
     "active"
   ],
-  "author": {
-    "name": "Adarsh Mohan S",
-    "email": "adarsmohan76@gmail.com"
-  },
-  "main": "dist/unlimited-sockets.min.js",
+  "author": "Adarsh Mohan S <adarsmohan76@gmail.com>",
   "license": "MIT",
-  "dependencies": {
-    "socket.io": "^3.0.3"
+  "bugs": {
+    "url": "https://github.com/adarsmoha76/unlimited-sockets/issues"
   },
+  "homepage": "https://github.com/adarsmoha76/unlimited-sockets#readme",
   "engines": {
     "node": ">= 4.0.0",
     "npm": ">= 3.0.0"
