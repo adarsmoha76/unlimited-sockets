@@ -29,7 +29,7 @@
     "email": "adhi92adhi@gmail.com"
   },
   "main": "dist/unlimited-sockets.min.js",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "socket.io": "^3.0.3"
   },
