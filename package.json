@@ -1,0 +1,40 @@
+{
+  "name": "unlimited-sockets",
+  "version": "0.0.1",
+  "description": "To create unlimited number of dynamic socket",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "socket",
+    "node",
+    "express",
+    "unlimited",
+    "socket-io",
+    "socket.io",
+    "namespace",
+    "channel",
+    "channels",
+    "sockets",
+    "realtime",
+    "communication",
+    "chat",
+    "thread",
+    "live",
+    "alive",
+    "active"
+  ],
+  "author": {
+    "name": "Adarsh Mohan S",
+    "email": "adhi92adhi@gmail.com"
+  },
+  "main": "dist/unlimited-sockets.min.js",
+  "license": "ISC",
+  "dependencies": {
+    "socket.io": "^3.0.3"
+  },
+  "engines": {
+    "node": ">= 4.0.0",
+    "npm": ">= 3.0.0"
+  }
+}
