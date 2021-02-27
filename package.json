@@ -1,6 +1,6 @@
 {
   "name": "unlimited-sockets",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "To create unlimited number of dynamic socket",
   "main": "dist/unlimited-sockets.min.js",
   "dependencies": {

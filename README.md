@@ -2,9 +2,11 @@
 
 ### How to
 ----
-1. `npm i unlimited-sockets -S`
-2. inlcude the file to your project as. `import UnlimitedSockets from 'unlimited-sockets'` or. `const UnlimitedSockets = require('unlimited-sockets')`
-3. initalize the package as `UnlimitedSockets.create(<connectior>, <handshake>)`
+```
+npm i unlimited-sockets -S
+import UnlimitedSockets from 'unlimited-sockets' // can also use `const UnlimitedSockets = require('unlimited-sockets')`
+UnlimitedSockets.sockets.create(<connectior>, <handshake>)
+```
 
 #### `<connector>`
 ----
@@ -14,7 +16,7 @@ const server = http.createServer(app)
 const socket = require('socket.io')(server, {
     transports: ['websocket',  'polling']
 });
-UnlimitedSockets.create(socket)
+UnlimitedSockets.sockets.create(socket)
 ```
 
 #### `<handshake>` Optional
@@ -27,5 +29,5 @@ const server = http.createServer(app)
 const socket = require('socket.io')(server, {
     transports: ['websocket',  'polling']
 });
-UnlimitedSockets.create(socket, server)
+UnlimitedSockets.sockets.create(socket, server)
 ```
