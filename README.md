@@ -2,7 +2,7 @@
 
 ### How to
 ----
-1. `npm install unlimited-sockets`
+1. `npm i unlimited-sockets -S`
 2. inlcude the file to your project as. `import UnlimitedSockets from 'unlimited-sockets'` or. `const UnlimitedSockets = require('unlimited-sockets')`
 3. initalize the package as `UnlimitedSockets.create(<connectior>, <handshake>)`
 
