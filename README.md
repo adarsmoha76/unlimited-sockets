@@ -31,3 +31,11 @@ const socket = require('socket.io')(server, {
 });
 UnlimitedSockets.sockets.create(socket, server)
 ```
+
+
+### `<emit data>`
+----
+To emit the data thorough the channels
+```
+UnlimitedSockets.sockets.emit(namespace: string, channel: string, data: any)
+```
